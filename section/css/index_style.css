@@ -1,0 +1,80 @@
+body{
+}
+.bg-light{
+    background-color: white !important
+}
+.qwe{
+    background-image: url(../Img/3.jpg);
+    background-size:100% 100%;
+   
+    
+}
+.navbar-light .navbar-brand{
+    color:rgb(240, 95, 64) !important
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color:#9d9d9d !important;
+    transition: .5s
+}
+
+.nav-link:hover{
+    color:rgb(240, 95, 64) !important
+}
+.navbar-brand{
+    font-weight: 700
+}
+.ert{
+    text-align:center;
+    color:white;
+    font-size:90px;
+    padding-top:220px;
+    
+}
+.ert h1{
+    font-size: 50px !important;
+    font-weight: 700;
+     position:relative;
+    left: 0;
+    animation-name: aqz;
+    animation-duration:2s;
+
+}
+.yu{
+    text-align: center;
+    color:rgba(255,255,255,.7);
+    font-size: 20px
+}
+hr{
+    background-color: white;
+    position: relative;
+    right:0;
+    animation-name: xxx;
+    animation-duration: 2s
+}
+@keyframes xxx{
+    0%{right:100%}
+}
+.yu p{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    position:relative;
+    opacity:1;
+    animation-name: eee;
+    animation-duration: 2s
+}
+@keyframes eee{
+    0%{opacity:0}
+}
+.btn-group-lg>.btn, .btn-lg{
+    width:200px !important;
+    border-radius: 300px;
+    height:50px;
+    margin-bottom: 130px;
+    text-align: center;
+    font-weight: 700;
+    color:white;
+    background-color: rgba(229,24,24,1.00)
+}
+@keyframes aqz {
+    0%{left:100%}
+}
